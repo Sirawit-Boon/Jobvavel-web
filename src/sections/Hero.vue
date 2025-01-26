@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { Swiper, SwiperSlide } from "swiper/vue";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/autoplay";
+import "../../node_modules/swiper/swiper.min.css";
+import "../../node_modules/swiper/modules/navigation.min.css";
+import "../../node_modules/swiper/modules/pagination.min.css";
+import "../../node_modules/swiper/modules/autoplay.min.css";
 import { Navigation, Pagination, EffectCoverflow, Autoplay } from "swiper/modules";
 import { companiesAds } from "../constants";
 import Companies from "../components/Companies.vue";
