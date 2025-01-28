@@ -13,9 +13,9 @@ const isOpen = ref<boolean>(false);
       <div class="flex justify-between gap-12">
         <div class="flex flex-col sm:flex-row items-center gap-4">
           <a>
-            <img src="/assets/logo.png" class="md:w-20 md:h-20 w-14 h-14" />
+            <img src="/assets/icons/logo.png" class="md:w-20 md:h-20 w-14 h-14" />
           </a>
-          <h1 class="font-semibold text-xl text-[#35495e] hidden md:flex">
+          <h1 class="font-semibold text-xl text-[#42b883] hidden md:flex">
             JobVavel
           </h1>
         </div>
@@ -34,7 +34,7 @@ const isOpen = ref<boolean>(false);
           @click="isOpen = !isOpen"
         >
           <img
-            :src="isOpen ? '/assets/close.svg' : '/assets/menu.svg'"
+            :src="isOpen ? '/assets/icons/close.svg' : '/assets/icons/menu.svg'"
             class="w-6 h-6"
           />
         </button>

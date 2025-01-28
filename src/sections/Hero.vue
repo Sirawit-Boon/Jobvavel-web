@@ -15,10 +15,10 @@ import Companies from "../components/Companies.vue";
   >
     <div class="md:w-1/2 flex flex-col gap-5 text-center md:text-start">
       <h1 class="hero-head_text text-white hidden md:flex">
-        Discover <br />morethan
+        Discover <br />more than
       </h1>
-      <h1 class="hero-head_text text-white md:hidden">Discover morethan</h1>
-      <p class="text-[#26A4FF] hero-head_text">5000+ Jobs</p>
+      <h1 class="hero-head_text text-white md:hidden">Discover more than</h1>
+      <p class="text-[#42b883] hero-head_text">5000+ Jobs</p>
       <p class="sub-text">
         Great platform for the job seeker that searching for new career heights
         and passionate about startups.
@@ -28,11 +28,11 @@ import Companies from "../components/Companies.vue";
           class="flex flex-col lg:flex-row w-full gap-2 justify-between bg-[#1A1D21] border border-[#363A3D] p-4 items-center"
         >
           <label class="flex items-start gap-3 w-full">
-            <img src="/assets/search.svg" class="h-6 w-6" />
+            <img src="/assets/icons/search.svg" class="h-6 w-6" />
             <input class="input w-full" placeholder="Job title or Keyword" />
           </label>
           <label class="flex items-start gap-3 w-full">
-            <img src="/assets/address.png" class="h-6 w-6" />
+            <img src="/assets/icons/address.png" class="h-6 w-6" />
             <select class="input w-full">
               <option value="address">Select your address</option>
             </select>

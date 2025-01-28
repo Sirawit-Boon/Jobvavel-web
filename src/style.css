@@ -55,7 +55,7 @@ background: #42b883;
   }
 
   .head-text {
-    @apply sm:text-5xl text-4xl font-semibold;
+    @apply sm:text-5xl text-4xl font-semibold text-white;
   }
 
   .sub-text {
@@ -96,7 +96,7 @@ background: #42b883;
   /* Button component  */
 
   .btn {
-    @apply flex gap-4 items-center justify-center cursor-pointer p-2 rounded-sm transition-all active:scale-95 mx-auto text-white bg-[#42b883] font-semibold hover:bg-gray-400;
+    @apply cursor-pointer p-2 rounded-sm transition-all active:scale-95 text-white bg-[#42b883] font-semibold hover:bg-gray-400;
   }
 
   .arrow-btn {
