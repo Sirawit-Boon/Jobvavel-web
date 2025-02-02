@@ -9,7 +9,7 @@ import TitleText from "../components/TitleText.vue";
       <div
         v-for="category in jobCategories"
         :key="category.id"
-        class="bg-[#1A1D21] border border-[#363A3D] rounded-md transition-transform transform hover:scale-102 cursor-pointer"
+        class="box"
       >
         <div class="relative">
           <img :src="category.src" :alt="category.name" />
@@ -21,7 +21,7 @@ import TitleText from "../components/TitleText.vue";
         </div>
         <div class="flex flex-col gap-2 px-4 py-3">
           <div class="flex items-center gap-2">
-            <img src="/assets/icons/thai.png" class="w-6 h-6" />
+            <img src="/assets/icons/thai-baht.png" class="w-6 h-6" />
             <p class="text-neutral-300">
               {{ category.min_salary }} - {{ category.max_salary }}
             </p>
